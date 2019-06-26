@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Textutils</title>
+</head>
+<body>
+
+<h1>Welcome</h1>
+
+My name is <b>{{name}}</b> and My Number is {{number}}
+
+<form action='/analyze' method='get'>
+    <textarea name='text' style='margin: 0px; width: 487px; height: 90px'></textarea><br><br></br>
+    <input type="checkbox" name="removepunc">Remove Punctuations<br>
+    <input type="checkbox" name="fullcapitalize">UPPERCASE<br>
+    <input type="checkbox" name="newlineremove">New Line Remove<br>
+    <input type="checkbox" name="spaceremove">Space Remove<br>
+    <input type="checkbox" name="charcount">Character Count<br>
+    <button type='submit'> Analyze Text</button>
+</form>
+</body>
+</html>
